@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v1/bpi/currentprice/eur.json"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"time\":{\"updated\":\"Jun 10, 2021 10:53:00 UTC\",\"updatedISO\":\"2021-06-10T10:53:00+00:00\",\"updateduk\":\"Jun 10, 2021 at 11:53 BST\"},\"disclaimer\":\"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org\",\"bpi\":{\"USD\":{\"code\":\"USD\",\"rate\":\"37,936.1350\",\"description\":\"United States Dollar\",\"rate_float\":37936.135},\"EUR\":{\"code\":\"EUR\",\"rate\":\"31,181.6441\",\"description\":\"Euro\",\"rate_float\":31181.6441}}}",
+    "headers": {
+      "Content-Type": "application/javascript"
+    }
+  }
+}

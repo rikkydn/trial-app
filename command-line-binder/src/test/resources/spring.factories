@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+by.halubovich.trial.binder.commandline.support.configuration.TestCommandLineBinderConfiguration

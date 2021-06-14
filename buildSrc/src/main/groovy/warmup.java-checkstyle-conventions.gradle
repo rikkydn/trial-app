@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+configurations {
+    checkstyleConfig
+}
+
+def dependency_versions = [
+        checkstyle: '8.29'
+]
+
+dependencies {
+    checkstyleConfig("com.puppycrawl.tools:checkstyle:$dependency_versions.checkstyle") { transitive = false }
+}
+
+testClasses {
+    dependsOn checkstyleMain
+}
+
+test {
+    dependsOn checkstyleTest
+}
+
+checkstyle {
+    toolVersion dependency_versions.checkstyle
+    config = resources.text.fromArchiveEntry(configurations.checkstyleConfig, 'google_checks.xml')
+    ignoreFailures false
+    maxWarnings = 0
+}

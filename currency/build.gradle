@@ -1,0 +1,9 @@
+plugins {
+    id 'warmup.java-spring-boot-conventions'
+}
+
+dependencies {
+    implementation([
+            project(':common'),
+    ])
+}

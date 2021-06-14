@@ -1,0 +1,18 @@
+plugins {
+    id 'warmup.java-spring-boot-conventions'
+}
+
+dependencies {
+    implementation([
+            'org.springframework.boot:spring-boot-starter',
+
+            'org.springframework.cloud:spring-cloud-stream',
+
+            project(':common')
+    ])
+    runtimeOnly([
+            project(':currency'),
+            project(':exchange-coindesk'),
+            project(':command-line-binder')
+    ])
+}

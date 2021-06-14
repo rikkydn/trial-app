@@ -1,0 +1,18 @@
+plugins {
+    id 'warmup.java-spring-boot-conventions'
+}
+
+dependencies {
+    implementation([
+            'org.springframework:spring-web',
+            'org.springframework.cloud:spring-cloud-starter-openfeign',
+
+            'com.fasterxml.jackson.datatype:jackson-datatype-guava',
+            project(':common')
+    ])
+
+    testImplementation([
+            'com.github.tomakehurst:wiremock:2.27.2'
+    ])
+
+}

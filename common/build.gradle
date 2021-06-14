@@ -1,0 +1,3 @@
+plugins {
+    id 'warmup.java-common-conventions'
+}

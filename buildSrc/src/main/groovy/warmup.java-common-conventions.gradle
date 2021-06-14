@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'io.freefair.lombok'
+    id 'warmup.java-checkstyle-conventions'
+    id 'warmup.java-jacoco-conventions'
+}
+
+lombok {
+    version = "1.18.20"
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['src/test/java', 'src/test/integration']
+        }
+        resources {
+            srcDirs = ['src/test/resources']
+        }
+    }
+}
+
+test {
+    useJUnitPlatform {
+    }
+    finalizedBy {
+        jacocoTestReport
+    }
+}

@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+    finalizedBy {
+        jacocoTestCoverageVerification
+    }
+    reports {
+        html.enabled true
+    }
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = 1
+            }
+        }
+    }
+}

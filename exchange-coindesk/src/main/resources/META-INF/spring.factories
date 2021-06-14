@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+by.halubovich.trial.exchange.coindesk.configuration.ClientConfiguration,\
+by.halubovich.trial.exchange.coindesk.configuration.PropertiesConfiguration,\
+by.halubovich.trial.exchange.coindesk.configuration.ServiceConfiguration,\
+by.halubovich.trial.exchange.coindesk.configuration.JacksonCustomization

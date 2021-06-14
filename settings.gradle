@@ -1,0 +1,6 @@
+rootProject.name = 'trial'
+include 'common',
+        'command-line-binder',
+        'exchange-coindesk',
+        'currency',
+        'application'
