@@ -1,0 +1,317 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - fileSystemServiceAccountCredential:
+          id: "1a12dfa4-7fc5-47a7-aa17-cc56572a41c7"
+          scope: GLOBAL
+      - usernamePassword:
+          description: "cp-588237-git-https"
+          id: "cp-588237-git-https"
+          password: "{AQAAABAAAAAgDh1e0l/g/NAfe3LU22d06EeVTpkFy8ko9YEvs0powNV/UU+FyZ7Kokv16FqEfvZk}"
+          scope: GLOBAL
+          username: "dzmitry.halubovich"
+      - basicSSHUserPrivateKey:
+          description: "cp-588237-git-ssh"
+          id: "cp-588237-git-ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "dzmitry.halubovich"
+      - basicSSHUserPrivateKey:
+          description: "cp-588237-git-source"
+          id: "cp-588237-git-source"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAApASQGE+/YS5UUSMN6EdS1VpUDCMl3psaTHfoBRPVBktMgTIDNmgCAPMZ9LDLCx4AvZPE+kIcE7sZxFyYtF2Iz9pJZGTc9FlJHHrpWGxJaTkwAwEPq94EqAFWIBKVA7thi5CGK54e5gXW5KCHuD9mK+dAuZvanB/boZNdWCmRkyK8xZLUVt7cdDtQZ100nxtHyabTwL1NhN1GmohZet7dyAEO2G6NnvS4fQ8Lp2ef8c17wF6sJzL//9R8gfhpBW64plqAdA7QiydiQi8w5O0RyW+PFLKU1F82iAEh/se9wMQa0H6XPntxqX85UAfHZUS+UOT3DduKmBNL/9eK9Dtt+EXyma6BiXyz7IXkvzvsJl/eduo/s5bgGIie0hH9EPOaS9ep0cK/Bad6BvVTLdtEl3lC9sC4ebd4YW+IU2dSmY4HQIVHz9xcoG15Zw3B317/FuEGy7I9IEd2RCrmQ0YKGwtaUcJLyuvHiZeg2RE5HmvimSkrs+7NMri68a8JZljxjfwr1ntIJcwJ9N1LeX1lqim3kiel2DQ9XrVb+fMQJxym18eH+IBhYWc/1SdTP+8U6m362fhJuenivy+TS3C82+SOiFdOGk5l0Mn5jKqH9Ygkh2xUZCJ0WUBvnXm+iI0xyxo7xRfoigK836L8ANjYHssRNqt+fm3VUcI9JqeWcnJyx97VaWLFUl4m8OyEGG7qXmPTb+JHBqxZbGOXilJD1uETMAdDwDk5UsCLZQvRRrl0hDb0GH3y/gZB87uMEpG+l0/vj2AlG7eI7v8i3Qk5ZZMXuUk/HBHlyUJdaN3cKm7XS1ul3BoJx7IxswBsAxjD5sgHLs/N6ynsgy2BwmCeECheHltjrpGfLG72XGb4HlsmrxhVtdRh5xnIsZeK6N6kmA5vY8NhcCv+JgzacsoupqGTonAt5E4ZbFl56EazmI8VLDyzlFBTihO3GDJr2E/NfDDNAFGbXEeuglvqksE9oDfmZ1pPrrRSZXE2kc68xi9ilEXAzdhK2Mg+bt8U5OYUQmJoGoJPocqK9sEYyT8/cOjjSuN56MT/jt9K0yn2wbYcB30YSwX2i7g95DQ9t1HkWb0MHITluys1zhh/sFXL4mGyRoz2fj+21vJwsi/2nZ/D7Iklc19LCVJCw+SS6qmJvfwCa4+fepqgPcJL/lLdB3NNF5VX1UqCC2q7UaplVs80TbIWt4uA7rFmzWtjg3sfFlRPaiz8RRjWWOlLyyFIKMkFHMRuCar4KwKoHF27bjObbp0P4yQFRo1HwgFNT7UhzOV1n7IMybVjn0PN22m/xyqFcONNITZiJJOJ37halX+ZOrp0vn/hwXXWf/5QuAFNsAhkEAMh5bphS68SsBQ8xv4sE6P20uSXn8cAjXWz6JM0XX78lRRVgKTKyTT6ihzazLg65t8/69DAhnFSRB8tevB3kuVcpA5XzSwU7eq1ENDAO5tNR0b5gx/YHyYLRn+q9eGruNPDG/+G0y3q6f/JOUABq5sMRowd9/4c6e9kSGPyrYsHJK6QmXMIeVXwnkfOHNx8/NcPpON1dNYN3jZNIO2OYE+lNMJPEeoPrgheJl2NI6wl39rCAWfz2eBamhTOZjXXEICDhV7465Yftm68+vh6OsgmNyfdLPmpKhGCU+HUQa2+UxEUzCJGT5pzCQ1PZbhuTA+vegCFFxw6LACXF/9OLqkVgolU/aueQ1VkTCL6IUddGuJjrMNxME8Ir/0419r1co2c7wz4C2DpxBpCvDhp12F4mKZRknAB8nYWSgN1swAJf0Wf1sZeqvKUAwpepo9zojXqPrY/gKULdkTpL5QxGMJnm+mXTIvmaDZRRV1B+C7SIbtnmK/4A3vvKiQeWbtjPQxxlZerDyw900SYJt2VDlENN0ZG+aWrQCMN+QHBXl3htSZZjwgO7oREm/9dv/zbYTNEob7iRAVtSXmnQQuJPrtjhM4A4RKgLQNSrzqzaBlauTP87W2SyZhTKQIER5T5e9I/2dVMI3miD/+uix/3V1wLMs8SQ0a6qEnF6H86mT/uB1bCv/wjYO9vC8eiq4puisf0MOsVKizX3mfk1/qm+MWcj+0k9txcPWvG9i0WEGSdQUpGcooIIO382TMYBGh2OiKIxNQCsMBSHt1RcdhjEk2PUAjf0xESzfHi8f212vRzAvlsOgQ8MybjWLC1gmjh86h+pRcdgauj/KpQtwCh7Bf1LFKn0zBB+4b7z7UA9uOYBUtIvbVPBzC92sM/V8m2DJD+L0blaUqziH5dNm1Dy2pquxxsPNmxYgm/e3vmKyIx+Uy6SBT9U8L1Zy/89a0YcEyKfqXCgcIn1D15yJAh0pdn+buZGYeMN56Uitw2yAuUqRB/7/NGgVt9rS7MXqiZpM3rA1kfFJuVdnipveLFGPySyLA/jEWD4MLqSTCyKKxXYdprUCVTg+X31xLh0t4d2gRInpmDgR9O78A+hy7jdlHi7I0xQNFyU3mfdVbtkF3R+kXdgb47lFdXoOQj6Bx4mGqn4iMGtsNgZp9TGUR/UClTr9jAdhitii4otwLCZ1lBzvGVxFUQZJ49llK0rCKPlivPIDnJR3M4/NiiZNf+sqCEkYgAfQT1BA/FCoKi61BcgHGZDxh8QHj+CEBjbb312ylGqwPZZ81NOd81745YFYIt5cMMwHUVFS8bZgUgYK88sFKpuZ9KilBxmpKOpYL6RDpDpVa3E44irkui/EQJxmcuakoiNRbqPhnvOmWrM+zxVqaOnz8onPFSRGI8aihBY0WOjqNogJrctCqC+lqBQ9I/dHao3wgo/Dvu0sXtbWSr77aYk6RzbVICzgEt/zdWHCItus0SVNpo4oCMSZ2fVfrL3z44R2OX8VOn0jZzj8PSjSX1QRyAI3ZaQWouOkm3y6ToOfP1Cps07dGT+34EOkPvzWjLJ2ysoILGFSbSo7KWIQYWpqv9EY3R8RM9xVybIbXcvwf0klYvoXP+96cde9EHuPCTnT5frC3iHeguxNS4x7veEhyrLbuvv3w28py2kh7ce752gThZJSit17hI0hRhTjG+xKnL4uV8PTPurvHwcwDRZ40bDySC4JwATsYQrd1QHgvk8Qv/HP9Clqu4OqWRjwluK7CNaCH+qUJsIs0cnDk14pOM3cM2/UdFIGhxFZ2Gzrk7lA/f1wWfJqf9gmm2294YCZYME8chqp9WIN+I1dm6ur375DoqMnoGSle8tG6zGLFMqW1bS6Evr/zdCHze951q9nPNSPvrxmN2K+w1JUS9XwqFixGd+9dLyB49vhqi6GsOpphuj+orlLTuyXNf2bq6LN5m5Fv+N7+5T9pTis0gTmhVyHGaCqo+aeM2XhKBBnsnYjqF+fxF5HBqx941yrfbYVZfn2uyLJA+kXmtxLCjRk+l1ojxkWBc7d+nqjdcyqKiY9nooXFi6x0ZcHkcUjiI+atWxv/rKgnlIv6ikqRqdZQEjV6N2ckpN1pkuQ8OsB/YDzjp7V4yZ/9MsjNV0oNg95xXuo1m/BbUXh0ChcK5XULkvHNO4zbgTg}"
+          scope: GLOBAL
+          username: "?"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+      - "Agent/Build:admin"
+      - "Agent/Configure:admin"
+      - "Agent/Configure:external.dzmitry.halubovich-admin-edit-view"
+      - "Agent/Connect:admin"
+      - "Agent/Create:admin"
+      - "Agent/Delete:admin"
+      - "Agent/Delete:external.dzmitry.halubovich-admin-edit-view"
+      - "Agent/Disconnect:admin"
+      - "Agent/ExtendedRead:admin"
+      - "Agent/Provision:admin"
+      - "Credentials/Create:admin"
+      - "Credentials/Create:external.dzmitry.halubovich-admin-edit-view"
+      - "Credentials/Delete:admin"
+      - "Credentials/Delete:external.dzmitry.halubovich-admin-edit-view"
+      - "Credentials/ManageDomains:admin"
+      - "Credentials/ManageDomains:external.dzmitry.halubovich-admin-edit-view"
+      - "Credentials/Update:admin"
+      - "Credentials/Update:external.dzmitry.halubovich-admin-edit-view"
+      - "Credentials/UseItem:admin"
+      - "Credentials/UseOwn:admin"
+      - "Credentials/View:admin"
+      - "Credentials/View:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Build:admin"
+      - "Job/Build:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Cancel:admin"
+      - "Job/Cancel:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Configure:admin"
+      - "Job/Configure:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Create:admin"
+      - "Job/Create:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Delete:admin"
+      - "Job/Delete:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Discover:admin"
+      - "Job/Discover:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/ExtendedRead:admin"
+      - "Job/Move:admin"
+      - "Job/Read:admin"
+      - "Job/Read:external.dzmitry.halubovich-admin-edit-view"
+      - "Job/Workspace:admin"
+      - "Job/Workspace:external.dzmitry.halubovich-admin-edit-view"
+      - "Lockable Resources/Reserve:admin"
+      - "Lockable Resources/Unlock:admin"
+      - "Lockable Resources/View:admin"
+      - "Metrics/HealthCheck:admin"
+      - "Metrics/ThreadDump:admin"
+      - "Metrics/View:admin"
+      - "N/A/FullControl:admin"
+      - "N/A/GenericConfigure:admin"
+      - "N/A/GenericCreate:admin"
+      - "N/A/GenericDelete:admin"
+      - "N/A/GenericRead:admin"
+      - "N/A/GenericUpdate:admin"
+      - "N/A/GenericWrite:admin"
+      - "Overall/Administer:admin"
+      - "Overall/Administer:external.dzmitry.halubovich-admin-edit-view"
+      - "Overall/ConfigureUpdateCenter:admin"
+      - "Overall/Manage:admin"
+      - "Overall/Read:admin"
+      - "Overall/Read:external.dzmitry.halubovich-admin-edit-view"
+      - "Overall/RunScripts:admin"
+      - "Overall/RunScripts:external.dzmitry.halubovich-admin-edit-view"
+      - "Overall/SystemRead:admin"
+      - "Overall/UploadPlugins:admin"
+      - "Run/Delete:admin"
+      - "Run/Delete:external.dzmitry.halubovich-admin-edit-view"
+      - "Run/Replay:admin"
+      - "Run/Update:admin"
+      - "Run/Update:external.dzmitry.halubovich-admin-edit-view"
+      - "SCM/Tag:admin"
+      - "SCM/Tag:external.dzmitry.halubovich-admin-edit-view"
+      - "View/Configure:admin"
+      - "View/Configure:external.dzmitry.halubovich-admin-edit-view"
+      - "View/Create:admin"
+      - "View/Create:external.dzmitry.halubovich-admin-edit-view"
+      - "View/Delete:admin"
+      - "View/Delete:external.dzmitry.halubovich-admin-edit-view"
+      - "View/Read:admin"
+  clouds:
+  - kubernetes:
+      addMasterProxyEnvVars: false
+      containerCap: 100
+      containerCapStr: "100"
+      credentialsId: "1a12dfa4-7fc5-47a7-aa17-cc56572a41c7"
+      jenkinsTunnel: "172.28.94.124:50000"
+      jenkinsUrl: "http://jenkins-ctc.cp-588237.svc.cluster.local:8080"
+      name: "openshift"
+      namespace: "cp-588237"
+      serverCertificate: |-
+        -----BEGIN CERTIFICATE-----
+        MIIC6jCCAdKgAwIBAgIBATANBgkqhkiG9w0BAQsFADAmMSQwIgYDVQQDDBtvcGVu
+        c2hpZnQtc2lnbmVyQDE1Mzc3OTQ5ODAwHhcNMTgwOTI0MTMxNjIwWhcNMjMwOTIz
+        MTMxNjIxWjAmMSQwIgYDVQQDDBtvcGVuc2hpZnQtc2lnbmVyQDE1Mzc3OTQ5ODAw
+        ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFOlNnHNjBwappTxP4C6Qe
+        4++N+BGWBYRfEOAqi46AgvJtG8NVL7xNB7lsWNJ3lur0NrrzW6yWYgZNYcEfsj6c
+        pX6tMPXT8sO8AwbM3QEfSXH1G2+LqJOBal5/lcrlUTVsa092GrQnppRH09s7cQo0
+        oIfaET2vMD7B4PluM6UcYFmB+kYmKVXm14JyX92HvZYo081BvnxMCMrWFOtNT7/2
+        cKlCCiGbz8+5zlCoag5cT9Dno3/m+a+M2FuKWgLUU/K55iAyUcht6hH9ExRfPL31
+        RP0/zRBLYpchhxmcu/O+etQSC1gS7ELer8KxKiOFqEhUlnCHsne0gAYxo3gfVAjZ
+        AgMBAAGjIzAhMA4GA1UdDwEB/wQEAwICpDAPBgNVHRMBAf8EBTADAQH/MA0GCSqG
+        SIb3DQEBCwUAA4IBAQBra7vuifQFgkFXqeIjWI4v/qiGCCNJI6wNO1vTfWR38g1u
+        fh4D8GTM4nek69uik8cniYuE7GzlkYHu597WZDPYNQsS5W72+ZLS7fY3qGxa7SL2
+        OIGGCmEBOA3zk5eftkHlKkQ2qLJkE0reVxcaxsXicggODFIDGxt1+/s/AaK/oAuO
+        GerIUIqKFIla30ovT1sGa4ZrGWP6j6dzosf+xyDb08Zv94v3CMjTE7Nj09OKqnup
+        VEzJHOP++Mw5zN1y6AgNM6tGfP1nX8XqLYdvWcTPFSgYLhdXAZsiXcB6ZTDfHShN
+        RCgveNGmMjG7txPKZcQqVNesBoZEN67+1wXIjttt
+        -----END CERTIFICATE-----
+      serverUrl: "https://172.28.0.1:443"
+      templates:
+      - containers:
+        - alwaysPullImage: true
+          args: "^${computer.jnlpmac} ^${computer.name}"
+          image: "registry.redhat.io/openshift3/jenkins-agent-maven-35-rhel7:v3.11"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jnlp"
+          workingDir: "/tmp"
+        id: "maven-4064a8602816a3346136b06656692783"
+        label: "maven"
+        name: "maven"
+        nodeSelector: "beta.kubernetes.io/os=linux"
+        serviceAccount: "jenkins"
+        yamlMergeStrategy: "override"
+      - containers:
+        - alwaysPullImage: true
+          args: "^${computer.jnlpmac} ^${computer.name}"
+          image: "registry.redhat.io/openshift3/jenkins-agent-nodejs-8-rhel7:v3.11"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jnlp"
+          workingDir: "/tmp"
+        id: "nodejs-6cd14e2449ca5967b796a3805abc3ba8"
+        label: "nodejs"
+        name: "nodejs"
+        nodeSelector: "beta.kubernetes.io/os=linux"
+        serviceAccount: "jenkins"
+        yamlMergeStrategy: "override"
+      - containers:
+        - alwaysPullImage: true
+          args: "^${computer.jnlpmac} ^${computer.name}"
+          image: "docker-registry.default.svc:5000/cp-588237/jenkins-agent-ctc"
+          name: "jnlp"
+          workingDir: "/tmp"
+        id: "f3da84e0-e96c-47da-8bde-0f992ce23df4"
+        label: "jenkins-agent-ctc"
+        name: "jenkins-agent-ctc"
+        serviceAccount: "jenkins"
+        yamlMergeStrategy: "override"
+      - containers:
+        - alwaysPullImage: true
+          args: "^${computer.jnlpmac} ^${computer.name}"
+          image: "docker-registry.default.svc:5000/cp-588237/jenkins-agent-ctc:latest"
+          name: "jnlp"
+          workingDir: "/tmp"
+        envVars:
+        - envVar:
+            key: "MAVEN_MIRROR_URL"
+            value: "http://repository.int.kn/nexus/content/groups/public"
+        - envVar:
+            key: "no_proxy"
+            value: ".maven.apache.org,.cluster.local,.int.kn,.svc,10.61.105.10,10.61.105.11,10.61.105.22,127.0.0.1,169.254.169.254,172.28.0.1,cp-ham-internal.int.kn,dehamcp1.int.kn,dehamcp10.int.kn,dehamcp11.int.kn,dehamcp12.int.kn,dehamcp2.int.kn,dehamcp4.int.kn,dehamcp5.int.kn,denotcp1.int.kn,denotcp10.int.kn,denotcp11.int.kn,denotcp12.int.kn,denotcp4.int.kn,denotcp5.int.kn,localhost"
+        - envVar:
+            key: "NO_PROXY"
+            value: ".maven.apache.org,.cluster.local,.int.kn,.svc,10.61.105.10,10.61.105.11,10.61.105.22,127.0.0.1,169.254.169.254,172.28.0.1,cp-ham-internal.int.kn,dehamcp1.int.kn,dehamcp10.int.kn,dehamcp11.int.kn,dehamcp12.int.kn,dehamcp2.int.kn,dehamcp4.int.kn,dehamcp5.int.kn,denotcp1.int.kn,denotcp10.int.kn,denotcp11.int.kn,denotcp12.int.kn,denotcp4.int.kn,denotcp5.int.kn,localhost"
+        - envVar:
+            key: "ADD_NO_PROXY"
+            value: "repo.maven.apache.org"
+        id: "jenkins-agent-ctc-cm-180e58c55fd97b37ac4f41d0dad478ba"
+        label: "jenkins-agent-ctc-cm"
+        name: "jenkins-agent-ctc-cm"
+        serviceAccount: "jenkins"
+        slaveConnectTimeoutStr: "0"
+        volumes:
+        - persistentVolumeClaim:
+            claimName: "jenkins-agent-ctc-maven-storage"
+            mountPath: "/home/jenkins/.m2/repository"
+            readOnly: false
+        yamlMergeStrategy: "override"
+  disableRememberMe: false
+  labelAtoms:
+  - name: "jenkins-agent-ctc"
+  - name: "jenkins-agent-ctc-cm"
+  - name: "master"
+  - name: "maven"
+  - name: "nodejs"
+  labelString: "master"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  noUsageStatistics: true
+  numExecutors: 5
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 1
+  remotingSecurity:
+    enabled: false
+  scmCheckoutRetryCount: 0
+  securityRealm: "openShiftOAuth2"
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: true
+  sSHD:
+    port: -1
+unclassified:
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        enableCache: false
+        manageHooks: false
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "https://jenkins-cp-588237.apps.cluster1.emea.cp.int.kn/github-webhook/"
+  gitSCM:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  globalPluginConfiguration:
+    buildConfigListInterval: 300
+    buildListInterval: 300
+    configMapListInterval: 300
+    enabled: true
+    foldersEnabled: true
+    imageStreamListInterval: 300
+    namespace: "cp-588237"
+    secretListInterval: 300
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  pollSCM:
+    pollingThreadCount: 10
+  prometheusConfiguration:
+    defaultNamespace: "default"
+    fetchTestResults: true
+    jobAttributeName: "jenkins_job"
+    path: "prometheus"
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
